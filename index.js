@@ -2,7 +2,7 @@ import http from 'http';
 import net from 'net';
 import url from 'url';
 
-const VPS_HOST = '34.174.119.160'; // IP del VPS
+const VPS_HOST = '157.245.158.55'; // IP del VPS
 const VPS_PORT = 22;
 
 const server = http.createServer((req, res) => {
