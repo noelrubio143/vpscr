@@ -7,8 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def meu_ip():
     try:
-        # api.ipify.org é um serviço gratuito que devolve só o IP público
-        ip = requests.get("https://api.ipify.org").text
+        ip = requests.get("47.80.68.133").text
         return f"""
         <h1>IP de saída do Cloud Run</h1>
         <p><strong>{ip}</strong></p>
